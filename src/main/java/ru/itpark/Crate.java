@@ -30,10 +30,9 @@ public void remove(Goods goods,int count){
 
     @Override
     public String toString() {
-        return "Crate{" +
-                "amount=" + amount +
-                ", discountAmount=" + discountAmount +
-                ", totalCount=" + totalCount +
-                '}';
+        return "Корзина:" +
+                " Сумма " + amount +
+                ", Сумма со скидкой " + discountAmount +
+                ", Количество товара " + totalCount  ;
     }
 }
