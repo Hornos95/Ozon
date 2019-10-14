@@ -44,7 +44,7 @@ public class Main {
         crate.add(snowboard, 1);
         crate.add(shampoo, 1);
         crate.add(dryFood, 1);
-
+        crate.remove(snowboard,1);
         System.out.println(crate);
 
     }

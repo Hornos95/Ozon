@@ -21,6 +21,11 @@ amount+=goods.getPrice()*count;
 discountAmount+=goods.getDiscountPrice()*count;
 totalCount+=count;
 }
+public void remove(Goods goods,int count){
+    amount-=goods.getPrice()*count;
+    discountAmount-=goods.getDiscountPrice()*count;
+    totalCount-=count;
+}
 
 
     @Override
