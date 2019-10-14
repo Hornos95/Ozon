@@ -21,10 +21,20 @@ amount+=goods.getPrice()*count;
 discountAmount+=goods.getDiscountPrice()*count;
 totalCount+=count;
 }
-public void remove(Goods goods,int count){
+public void add(Goods goods){
+        amount+=goods.getPrice();
+        discountAmount+=goods.getDiscountPrice();
+        totalCount++;
+}
+public void clean(Goods goods, int count){
     amount-=goods.getPrice()*count;
     discountAmount-=goods.getDiscountPrice()*count;
     totalCount-=count;
+}
+public void clean(Goods goods){
+    amount-=goods.getPrice();
+    discountAmount-=goods.getDiscountPrice();
+    totalCount--;
 }
 
 
