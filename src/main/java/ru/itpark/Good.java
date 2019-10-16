@@ -1,6 +1,6 @@
 package ru.itpark;
 
-public class Goods {
+public class Good {
     private int id;
     private int price;
     private String name;
@@ -12,7 +12,7 @@ public class Goods {
 
 
 
-    public Goods(int id, int price, String name, String image, String description, int discount,double discountPrice) {
+    public Good(int id, int price, String name, String image, String description, int discount, double discountPrice) {
         this.id = id;
         this.price = price;
         this.name = name;

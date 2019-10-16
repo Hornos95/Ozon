@@ -2,10 +2,10 @@ package ru.itpark;
 
 public class Main {
     public static void main(String[] args) {
-        Goods downJacket = new Goods(147869768,7990, "Savage",
+        Good downJacket = new Good(147869768,7990, "Savage",
                 "https://cdn1.ozone.ru/multimedia/c50/1025464984.jpg",
                 "100% полиэстер", 62, 3036.2);
-        Goods flatiron = new Goods(146687628, 9990, "Philips Azur GC4566",
+        Good flatiron = new Good(146687628, 9990, "Philips Azur GC4566",
                 "https://cdn1.ozone.ru/multimedia/c1200/1023896384.jpg",
                 "Гарантированно оптимальная подача пара." +
                         " С улучшенной системой очистки от накипи" +
@@ -15,14 +15,14 @@ public class Main {
                         "автоматически собираются в специальном съемном контейнере. " +
                         "Это позволяет менее чем за 15 секунд очистить прибор от накипи " +
                         "для превосходных результатов использования прибора", 50,4995);
-        Goods shampoo = new Goods(147921952, 769, "Head&Shoulders \"Ментол\"",
+        Good shampoo = new Good(147921952, 769, "Head&Shoulders \"Ментол\"",
                 "https://cdn1.ozone.ru/multimedia/c1200/1025445854.jpg",
                 "Избавьтесь от перхоти с помощью шампуня против перхоти Head&Shoulders" +
                          " с освежающим ментолом. Шампунь Head&Shoulders с формулой тройного действия " +
                          "очищает, защищает и увлажняет (при регулярном использовании) ваши волосы и кожу" +
                          " головы; вы получите до 100%* свободы от перхоти, а ваши волосы будут выглядеть" +
                          " здоровыми и красивыми.", 30,538.3);
-        Goods snowboard = new Goods(147803374, 27290,"Nidecker Merc",
+        Good snowboard = new Good(147803374, 27290,"Nidecker Merc",
                 "https://cdn1.ozone.ru/multimedia/c1200/1026314134.jpg",
                 "Новая модель этого сезона от Nidecker - Merc - универсал" +
                         " средней жесткости для тех, кто хочет оттачивать технику и " +
@@ -31,7 +31,7 @@ public class Main {
                         " смещением закладных 10 мм дает возможность не только гонять от" +
                         " души по разным склонам, но и прокатиться в свиче, если того " +
                         "потребует ситуация.", 27,19921.7);
-        Goods dryFood = new Goods(139192369, 1747,"Royal Canin \"Maine Coon Adult\"",
+        Good dryFood = new Good(139192369, 1747,"Royal Canin \"Maine Coon Adult\"",
                 "https://cdn1.ozone.ru/multimedia/c1200/1016989386.jpg",
                 "Корм Royal Canin \"Maine Coon Adult\" - полнорационный сухой корм," +
                         " который подходит кошкам породы мейн-кун в возрасте старше 15 месяцев, " +

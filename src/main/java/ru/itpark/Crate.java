@@ -16,24 +16,24 @@ public class Crate {
     public int getDiscountAmount() {
         return discountAmount;
     }
-public  void add(Goods goods, int count){
-amount+=goods.getPrice()*count;
-discountAmount+=goods.getDiscountPrice()*count;
+public  void add(Good good, int count){
+amount+= good.getPrice()*count;
+discountAmount+= good.getDiscountPrice()*count;
 totalCount+=count;
 }
-public void add(Goods goods){
-        amount+=goods.getPrice();
-        discountAmount+=goods.getDiscountPrice();
+public void add(Good good){
+        amount+= good.getPrice();
+        discountAmount+= good.getDiscountPrice();
         totalCount++;
 }
-public void clean(Goods goods, int count){
-    amount-=goods.getPrice()*count;
-    discountAmount-=goods.getDiscountPrice()*count;
+public void clean(Good good, int count){
+    amount-= good.getPrice()*count;
+    discountAmount-= good.getDiscountPrice()*count;
     totalCount-=count;
 }
-public void clean(Goods goods){
-    amount-=goods.getPrice();
-    discountAmount-=goods.getDiscountPrice();
+public void clean(Good good){
+    amount-= good.getPrice();
+    discountAmount-= good.getDiscountPrice();
     totalCount--;
 }
 
