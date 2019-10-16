@@ -1,6 +1,6 @@
 package ru.itpark;
 
-public class Crate {
+public class Cart {
     private int amount;
     private int discountAmount;
     private int totalCount;

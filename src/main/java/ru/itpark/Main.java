@@ -40,12 +40,12 @@ public class Main {
                         " Первое упоминание о предках сегодняшних мейн-кунов было зафиксировано в " +
                         "штате Мейн в 1850-е годы. Несмотря на свой \"дикий\" вид, представители этой" +
                         " породы отличаются мягким характером.", 14,1502.42);
-        Crate crate=new Crate();
-        crate.add(snowboard, 1);
-        crate.add(shampoo, 1);
-        crate.add(dryFood, 1);
-        crate.clean(snowboard,1);
-        System.out.println(crate);
+        Cart cart =new Cart();
+        cart.add(snowboard, 1);
+        cart.add(shampoo, 1);
+        cart.add(dryFood, 1);
+        cart.clean(snowboard,1);
+        System.out.println(cart);
 
     }
 }
