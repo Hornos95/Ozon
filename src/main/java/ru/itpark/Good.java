@@ -10,8 +10,6 @@ public class Good {
     private double discountPrice;
 
 
-
-
     public Good(int id, int price, String name, String image, String description, int discount, double discountPrice) {
         this.id = id;
         this.price = price;
@@ -19,7 +17,7 @@ public class Good {
         this.image = image;
         this.description = description;
         this.discount = discount;
-        this.discountPrice=discountPrice;
+        this.discountPrice = discountPrice;
     }
 
     public int getDiscount() {
@@ -35,7 +33,7 @@ public class Good {
     }
 
     public void setDiscountPrice(int discountPrice) {
-        this.discountPrice = price*discount/100;
+        this.discountPrice = price * discount / 100;
     }
 
     public int getId() {
